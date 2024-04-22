@@ -1,0 +1,33 @@
+.teste input {
+  margin-bottom: 2em;
+  padding: 0.7em;
+  border-radius: 0;
+  border: none;
+  width: 300px;
+  font-size: medium;
+  transition: 1s;
+  opacity: 0.5;
+}
+
+.teste input:hover {
+  opacity: 1;
+}
+
+.teste input::placeholder {
+  color: #7b7b7b;
+}
+
+.teste select {
+  margin-bottom: 2em;
+  padding: 0.7em;
+  border-radius: 0;
+  border: none;
+  width: 300px;
+  font-size: medium;
+  transition: 1s;
+  opacity: 0.5;
+}
+
+.teste select:hover {
+  opacity: 1;
+}

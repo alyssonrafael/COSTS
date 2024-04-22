@@ -1,0 +1,138 @@
+.container_about {
+  width: 100%;
+}
+
+.content_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4em;
+  padding-bottom: 2em;
+}
+
+.text_wrapper {
+  width: 70%; /* Ajuste a largura conforme necessário */
+  max-height: 30vw;
+  overflow: auto;
+  padding-right: 10px;
+}
+
+.text_wrapper p {
+  font-size: 1.1rem;
+}
+
+.image_wrapper {
+  width: 50%; /* Ajuste a largura conforme necessário */
+  display: flex;
+  justify-content: center;
+}
+
+.image_wrapper img {
+  max-width: 80%;
+  height: 30%;
+}
+
+.text_wrapper h1 {
+  margin: 1em;
+}
+
+.text_wrapper ol {
+  list-style-type: none; /* Remove os marcadores padrão */
+  counter-reset: minha-sequencia; /* Inicializa um contador */
+}
+
+.text_wrapper ol li {
+  background: #f9f9f9; /* Cor de fundo para cada item da lista */
+  margin-bottom: 5px; /* Espaço entre os itens da lista */
+  padding: 10px; /* Espaço interno para cada item */
+  border-radius: 5px; /* Bordas arredondadas para os itens */
+  border: 1px solid #ddd; /* Borda para cada item */
+  counter-increment: minha-sequencia; /* Incrementa o contador */
+  margin-bottom: 5px; /* Espaço entre os itens da lista */
+}
+
+.text_wrapper ol li:before {
+  content: counter(minha-sequencia) ". "; /* Adiciona o número antes do item */
+  font-weight: bold; /* Deixa o número em negrito */
+  color: #ffbb33; /* Cor do número */
+}
+
+.titulo_centralizado {
+  text-align: center;
+}
+/* ----------tecnologias------------ */
+
+.tech_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.tech_wrapper svg {
+  font-size: 3em;
+}
+
+.tech_wrapper ul {
+  list-style-type: none; /* Remove os marcadores padrão */
+  margin-bottom: 10px;
+}
+
+.tech_wrapper li {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background: #f9f9f9; /* Cor de fundo para cada item da lista */
+  margin-bottom: 5px; /* Espaço entre os itens da lista */
+  padding: 10px; /* Espaço interno para cada item */
+  border-radius: 5px; /* Bordas arredondadas para os itens */
+  border: 1px solid #ddd; /* Borda para cada item */
+  margin-bottom: 5px; /* Espaço entre os itens da lista */
+}
+
+.tech_wrapper li svg {
+  padding-right: 5px;
+}
+
+/* ----------------quadrados - cores------------------ */
+.colors_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+.colors_wrapper h2 {
+  text-align: center;
+}
+
+.quadrado {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.6;
+  cursor: pointer;
+  border-radius: 42px 69px 42px 69px;
+  -webkit-box-shadow: 25px 10px 44px 0px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: 25px 10px 44px 0px rgba(0, 0, 0, 0.37);
+  box-shadow: 25px 10px 44px 0px rgba(0, 0, 0, 0.37);
+  transition: 0.5s;
+}
+.quadrado:hover {
+  opacity: 1;
+}
+
+.laranja {
+  background-color: #ffbb33;
+  color: black;
+}
+.cinza {
+  background-color: #222;
+  color: #f9f9f9;
+}
+.verde {
+  background-color: #efefef;
+  color: black;
+}

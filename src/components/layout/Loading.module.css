@@ -1,0 +1,11 @@
+.loader_container {
+  height: 1005;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  width: 50px;
+}

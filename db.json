@@ -1,0 +1,70 @@
+{
+  "projects": [
+    {
+      "id": "bc0a",
+      "name": "Projeto de teste final",
+      "budget": "10000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 4765,
+      "services": [
+        {
+          "name": "Serviço de Teste final",
+          "cost": "4000",
+          "description": "teste",
+          "id": "340917b3-b777-4a6c-81cc-9708f5c1855c"
+        },
+        {
+          "name": "Serviço de Teste final 2",
+          "cost": "765",
+          "description": "teste",
+          "id": "7f42af39-6753-4fe5-a19d-f7cab9ab6d07"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Consultoria"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Infra"
+    },
+    {
+      "id": "5",
+      "name": "Marketing"
+    },
+    {
+      "id": "6",
+      "name": "Planejamento"
+    },
+    {
+      "id": "7",
+      "name": "Produção"
+    },
+    {
+      "id": "8",
+      "name": "Suporte"
+    },
+    {
+      "id": "9",
+      "name": "Treinamento"
+    },
+    {
+      "id": "10",
+      "name": "Vendas"
+    }
+  ]
+}

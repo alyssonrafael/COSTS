@@ -1,0 +1,38 @@
+.project_container {
+  padding: 2em;
+}
+
+.title_container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+/* styles.css */
+.active_button {
+  background-color: #fff;
+  color: #222;
+  border: 2px solid #222;
+}
+
+.inactive_button {
+  background-color: #ffbb33;
+  color: #222;
+  border: 2px solid #222;
+}
+
+.search_buttons {
+  margin-bottom: 20px;
+}
+
+.search_buttons button {
+  cursor: pointer;
+  font-size: small;
+  margin-right: 1.5em;
+  padding: 4px;
+}
+
+.button_container {
+  display: flex;
+  justify-content: space-around;
+}
